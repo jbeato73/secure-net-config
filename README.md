@@ -39,15 +39,13 @@ Instead of hardcoding sensitive data, the script pulls configuration from a hidd
    CONTROLLER_URL=[https://your-sdwan-api.com](https://your-sdwan-api.com)
    API_KEY=your_actual_secret_token
 
-
-5. **Run the Secure Check:**
-
+4. **Run the Secure Check:**
 
    ```Bash
 
    uv run python secure_check.py
 
-# Dependency Stack:
+-- Dependency Stack**
 
    . python-decouple: For robust environment variable management.
 
