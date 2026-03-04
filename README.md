@@ -19,21 +19,18 @@ Instead of hardcoding sensitive data, the script pulls configuration from a hidd
 2. **Initialize your environment variables:**
 
    The repository includes a template file. Copy it to create your private .env file:
-
-   Bash
+   ```Bash
    cp .env.example .env
 
 3. **Configure your secrets:**
 
    Open the new .env file and replace the placeholder values with your actual controller credentials:
-
-   Plaintext
+   ```Plaintext
    CONTROLLER_URL=[https://your-sdwan-api.com](https://your-sdwan-api.com)
    API_KEY=your_actual_secret_token
 
-4. **Run the Secure Check:**
-
-   Bash
+5. **Run the Secure Check:**
+   ```Bash
    uv run python secure_check.py
 
 # Dependency Stack
